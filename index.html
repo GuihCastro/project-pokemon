@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Pokémon</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+
+</head>
+
+<body>
+    <header class="cabecalho">
+        <img class="logo" src="./src/imagens/logo.svg" alt="Logo Pokémon">
+    </header>
+    <main class="selecao-de-personagens">
+        <section class="personagens">
+            <h1 class="titulo">Choose your partner</h1>
+            <ul class="lista-de-personagens">
+                <li class="personagem selecionado" id="bulbasaur" data-name="Bulbasaur" data-description="There is a plant seed on its back right from
+                the day this Pokémon is born. The seed slowly grows larger.">
+                    <img src="./src/imagens/card-bulbasaur.jpg" alt="Character Bulbasaur">
+                </li>
+                <li class="personagem" id="charmander" data-name="Charmander"
+                    data-description="It has a preference for hot things. When it rains, steam is said to spout from the tip of its tail.">
+                    <img src="./src/imagens/card-charmander.jpg" alt="Character Charmander">
+                </li>
+                <li class="personagem" id="squirtle" data-name="Squirtle"
+                    data-description="When it retracts its long neck into its shell, it squirts out water with vigorous force.">
+                    <img src="./src/imagens/card-squirtle.jpg" alt="Character Squirtle">
+                </li>
+                <li class="personagem" id="chikorita" data-name="Chikorita"
+                    data-description="In battle, Chikorita waves its leaf around to keep the foe at bay. However, a sweet fragrance also wafts from the leaf, becalming the battling Pokémon and creating a cozy, friendly atmosphere all around.">
+                    <img src="./src/imagens/card-chikorita.jpg" alt="Character Chikorita">
+                </li>
+                <li class="personagem" id="cyndaquil" data-name="Cyndaquil"
+                    data-description="Cyndaquil protects itself by flaring up the flames on its back. The flames are vigorous if the Pokémon is angry. However, if it is tired, the flames splutter fitfully with incomplete combustion.">
+                    <img src="./src/imagens/card-cyndaquil.jpg" alt="Character Cyndaquil">
+                </li>
+                <li class="personagem" id="totodile" data-name="Totodile"
+                    data-description="Despite the smallness of its body, Totodile’s jaws are very powerful. While the Pokémon may think it is just playfully nipping, its bite has enough power to cause serious injury.">
+                    <img src="./src/imagens/card-totodile.jpg" alt="Character Totodile">
+                </li>
+                <li class="personagem" id="pikachu" data-name="Pikachu"
+                    data-description="When it is angered, it immediately discharges the energy stored in the pouches in its cheeks.">
+                    <img src="./src/imagens/card-pikachu.jpg" alt="Character Pikachu">
+                </li>
+                <li class="personagem" id="eevee" data-name="Eevee"
+                    data-description="Its ability to evolve into many forms allows it to adapt smoothly and perfectly to any environment.">
+                    <img src="./src/imagens/card-eevee.jpg" alt="Character Eevee">
+                </li>
+            </ul>
+        </section>
+        <section class="personagem-selecionado">
+            <img class="personagem-grande" src="./src/imagens/bulbasaur.png" alt="Selected character">
+            <div class="informacoes-personagem">
+                <h2 class="nome-personagem" id="nome-personagem">Bulbasaur</h2>
+                <p class="descricao-personagem" id="descricao-personagem">There is a plant seed on its back right from
+                    the day this Pokémon is born. The seed slowly grows larger.</p>
+            </div>
+        </section>
+    </main>
+    <script src="./src/js/index.js"></script>
+</body>
+
+</html>
